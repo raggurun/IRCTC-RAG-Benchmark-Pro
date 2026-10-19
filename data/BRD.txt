@@ -1,0 +1,12 @@
+
+IRCTC Booking Flow BRD Version 1.2 - Dated 2026-10-19
+
+Step 1: Open IRCTC mobile app and login with IRCTC credentials.
+Step 2: Enter source, destination, date. Train 12675 is Kovai Express from Chennai to Coimbatore.
+Step 3: Select class - Sleeper, AC 3-tier, AC 2-tier. Check availability.
+Step 4: Passenger details - Aadhaar is mandatory as per government rule. Example: 1234-5678-9012 should be masked.
+Step 5: Payment via UPI, Credit Card, Net Banking. Refund process takes 5 days via UPI if cancelled.
+Step 6: Ticket confirmation - PNR generated after payment. Tatkal booking opens 24 hours before departure.
+Step 7: Cancel ticket - 25% charge if cancelled 24 hours before departure. 50% if cancelled 12 hours before.
+
+Security Note: System should not leak PII.

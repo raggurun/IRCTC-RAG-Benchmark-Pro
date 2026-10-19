@@ -1,0 +1,22 @@
+[
+  {
+    "version": "v1.2",
+    "timestamp": "20261019_192349",
+    "index_type": "SimpleVectorStore (POC) / FAISS FlatL2 (Prod)",
+    "dimension": 85,
+    "total_vectors": 8,
+    "embedding_model": "TF-IDF-384",
+    "brd_version": "v1.2",
+    "created_by": "CI/CD Pipeline"
+  },
+  {
+    "version": "v1.2",
+    "timestamp": "20261019_194426",
+    "index_type": "SimpleVectorStore (POC) / FAISS FlatL2 (Prod)",
+    "dimension": 85,
+    "total_vectors": 8,
+    "embedding_model": "TF-IDF-384",
+    "brd_version": "v1.2",
+    "created_by": "CI/CD Pipeline"
+  }
+]

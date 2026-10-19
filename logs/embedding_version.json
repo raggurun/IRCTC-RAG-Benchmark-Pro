@@ -1,0 +1,9 @@
+{
+  "version": "v1.2",
+  "embedding_model": "TF-IDF-384 (POC) / BGE-1024 (Prod)",
+  "dimension": 384,
+  "chunks": 8,
+  "drift_checked": true,
+  "bias_checked": true,
+  "timestamp": "2026-10-19T19:44:25.907551"
+}

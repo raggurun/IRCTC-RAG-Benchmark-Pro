@@ -1,0 +1,110 @@
+{
+  "version_info": {
+    "version": "v1.2",
+    "timestamp": "20261019_192349",
+    "index_type": "SimpleVectorStore (POC) / FAISS FlatL2 (Prod)",
+    "dimension": 85,
+    "total_vectors": 8,
+    "embedding_model": "TF-IDF-384",
+    "brd_version": "v1.2",
+    "created_by": "CI/CD Pipeline"
+  },
+  "chunks": [
+    {
+      "id": "step_0",
+      "text": "Step\nIRCTC Booking Flow BRD Version 1.2 - Dated 2026-10-19",
+      "metadata": {
+        "step_number": 0,
+        "step_title": "Step\nIRCTC Booking Flow BRD Ve",
+        "token_count": 10,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_1",
+      "text": "Step 1: Open IRCTC mobile app and login with IRCTC credentials.",
+      "metadata": {
+        "step_number": 1,
+        "step_title": "Step 1: Open IRCTC mobile app ",
+        "token_count": 11,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_2",
+      "text": "Step 2: Enter source, destination, date. Train 12675 is Kovai Express from Chennai to Coimbatore.",
+      "metadata": {
+        "step_number": 2,
+        "step_title": "Step 2: Enter source, destinat",
+        "token_count": 15,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_3",
+      "text": "Step 3: Select class - Sleeper, AC 3-tier, AC 2-tier. Check availability.",
+      "metadata": {
+        "step_number": 3,
+        "step_title": "Step 3: Select class - Sleeper",
+        "token_count": 12,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_4",
+      "text": "Step 4: Passenger details - Aadhaar is mandatory as per government rule. Example: [AADHAAR_MASKED] should be masked.",
+      "metadata": {
+        "step_number": 4,
+        "step_title": "Step 4: Passenger details - Aa",
+        "token_count": 17,
+        "has_aadhaar": true,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_5",
+      "text": "Step 5: Payment via UPI, Credit Card, Net Banking. Refund process takes 5 days via UPI if cancelled.",
+      "metadata": {
+        "step_number": 5,
+        "step_title": "Step 5: Payment via UPI, Credi",
+        "token_count": 18,
+        "has_aadhaar": false,
+        "has_refund": true
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_6",
+      "text": "Step 6: Ticket confirmation - PNR generated after payment. Tatkal booking opens 24 hours before departure.",
+      "metadata": {
+        "step_number": 6,
+        "step_title": "Step 6: Ticket confirmation - ",
+        "token_count": 16,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    },
+    {
+      "id": "step_7",
+      "text": "Step 7: Cancel ticket - 25% charge if cancelled 24 hours before departure. 50% if cancelled 12 hours before.\n\nSecurity Note: System should not leak PII.",
+      "metadata": {
+        "step_number": 7,
+        "step_title": "Step 7: Cancel ticket - 25% ch",
+        "token_count": 26,
+        "has_aadhaar": false,
+        "has_refund": false
+      },
+      "method": "smart"
+    }
+  ]
+}
